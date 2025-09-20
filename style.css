@@ -1,22 +1,56 @@
-img{
-    border-radius: 45px;
-    border: #ffd700 5px solid;
+/* Imagens */
+img {
+  max-width: 100%;   /* Faz a imagem nunca ultrapassar a largura da tela */
+  height: auto;      /* Mantém proporção */
+  border-radius: 20px; /* Diminui no mobile pra não ficar exagerado */
+  border: #ffd700 3px solid;
 }
-body{
-    background-color: #353839;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #ffd700;
-    text-align: center;
+
+/* Corpo */
+body {
+  background-color: #353839;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #ffd700;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
-a{
-    background-color: #ffd700;
-    font-size: 20px;
-    border-radius: 10px;
-    padding: 10px;
-    display: block;
-    text-align: center;
-    margin: 10px;
-    color: #353839;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border: #000000 2px solid;
+
+/* Links */
+a {
+  background-color: #ffd700;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 12px;
+  display: block;
+  text-align: center;
+  margin: 12px auto;
+  width: 90%;            /* Ocupa quase toda a largura no celular */
+  max-width: 400px;      /* Mas no desktop não fica gigante */
+  color: #353839;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: #000000 2px solid;
+  transition: all 0.3s ease;
+}
+
+/* Efeito hover no desktop */
+a:hover {
+  background-color: #353839;
+  color: #ffd700;
+  border: #ffd700 2px solid;
+}
+
+/* Media queries para celular */
+@media (max-width: 768px) {
+  a {
+    font-size: 16px;   /* Letras um pouco menores */
+    padding: 10px;     /* Botões mais confortáveis */
+    border-radius: 8px;
+  }
+
+  img {
+    border-radius: 15px;
+    border-width: 2px;
+  }
 }
