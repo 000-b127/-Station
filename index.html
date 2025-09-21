@@ -1,29 +1,42 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <title>fluxo∅</title>
-        <link rel="icon" href="favicon.png">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <img class="NmurderDrone" src="NmurderDrone.png" width="250px" height="200px">
-        <h1>∅∅∅Station</h1>
-        <h2>Lugarzinho do ∅</h2>
-        <p>Bem Vindo</p>
-         <ul style="list-style: none; padding: 0;">
-            <li style="margin-bottom: 15px;">
-                <a href="https://www.tiktok.com/@000.b127?is_from_webapp=1&sender_device=pc">
-                    <img class="rede-social" src="tiktok.png" alt="TikTok" width="50" height="30" style="vertical-align:middle; margin-right:8px;">
-                    TikTok
-                </a>
-            </li>
-            <li>
-                <a href="https://youtube.com/@blazeb-127?si=1arsdzOk0UwHxHRU">
-                    <img class="rede-social" src="youtube.png" alt="YouTube" width="30" height="30" style="vertical-align:middle; margin-right:8px;">
-                    YouTube
-                </a>
-            </li>
-        </ul>
+<html>
 
-</html>
+<head>
+    <title>B127-Station</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+      <button id="toggleSidebar" style="position:fixed;top:10px;left:70px;z-index:200;">☰</button>
+     <div class="sidebar">
+        <ul>
+            <li><img src="icon1.png" alt="Home" title="Home"></li>
+            <li><img src="icon2.png" alt="Twitch" title="Twitch"></li>
+            <li><img src="icon3.png" alt="Discord" title="Discord"></li>
+            <!-- Adicione mais ícones conforme desejar -->
+        </ul>
+    </div>
+
+    <div>
+        <h1>Olá, Mundo!</h1>
+        <p>este paragrafo tera seu estilo definido pelo css</p>
+    </div>
+    <div class="Videos">
+        <h2>Videos</h2>
+    </div>
+
+     <script>
+        const sidebar = document.querySelector('.sidebar');
+        const btn = document.getElementById('toggleSidebar');
+        let hidden = false;
+        btn.onclick = function() {
+            hidden = !hidden;
+            sidebar.style.display = hidden ? 'none' : 'flex';
+        };
+    </script>
+    
+</body >
+
+
+</html >
