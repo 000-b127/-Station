@@ -110,10 +110,14 @@ a:hover {
     margin: 30px;
   }
   iframe {
-    margin: 50px;
-    border-radius: 20px;
-    border: white 3px solid;
-    margin-bottom: 2px;
+     width: 100%;
+  max-width: 560px;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px auto;
+  border-radius: 20px;
+  border: white solid;
   }
   .Videozim {
     color: #353839;
