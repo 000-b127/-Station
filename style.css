@@ -1,31 +1,37 @@
 /* Imagens */
 .NmurderDrone {
-  max-width: 100%;   /* Faz a imagem nunca ultrapassar a largura da tela */
-  height: auto;      /* Mantém proporção */
-  border-radius: 20px; /* Diminui no mobile pra não ficar exagerado */
+  max-width: 100%;
+  /* Faz a imagem nunca ultrapassar a largura da tela */
+  height: auto;
+  /* Mantém proporção */
+  border-radius: 20px;
+  /* Diminui no mobile pra não ficar exagerado */
   border: #ffd700 3px solid;
   margin-bottom: 20px;
-animation: pulse 2s infinite;
+  animation: pulse 2s infinite;
 }
+
 @keyframes pulse {
   0% {
     box-shadow: 0 0 5px #ffd700, 0 0 15px #ffd700;
   }
+
   50% {
     box-shadow: 0 0 20px #ffd700, 0 0 40px #ffd700;
   }
-  100%  {
+
+  100% {
     box-shadow: 0 0 5px #ffd700, 0 0 15px #ffd700;
   }
 }
 
 /* Corpo */
 body {
-     background: linear-gradient(135deg, #353839, #0f0f0f, #000000);
+  background: linear-gradient(135deg, #353839, #0f0f0f, #000000);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: #ffd700;
   text-align: center;
-  margin: 0;
+  margin: 50px;
   padding: 50px 50px 300px 50px;
 
 }
@@ -39,13 +45,16 @@ a {
   display: block;
   text-align: center;
   margin: 12px auto;
-  width: 90%;            /* Ocupa quase toda a largura no celular */
-  max-width: 400px;      /* Mas no desktop não fica gigante */
+  width: 90%;
+  /* Ocupa quase toda a largura no celular */
+  max-width: 400px;
+  /* Mas no desktop não fica gigante */
   color: #353839;
   text-decoration: none;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   transition: all 0.3s ease;
-   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* sombra suave */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  /* sombra suave */
 }
 
 /* Efeito hover no desktop */
@@ -53,15 +62,62 @@ a:hover {
   background-color: #353839;
   color: #ffd700;
   border: #ffd700 2px solid;
-   transform: scale(1.03); /* cresce levemente no hover */
+  transform: scale(1.03);
+  /* cresce levemente no hover */
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
 }
 
 /* Media queries para celular */
 @media (max-width: 768px) {
   a {
-    font-size: 16px;   /* Letras um pouco menores */
-    padding: 10px;     /* Botões mais confortáveis */
+    font-size: 16px;
+    /* Letras um pouco menores */
+    padding: 10px;
+    /* Botões mais confortáveis */
     border-radius: 8px;
   }
 }
+
+.cabeçalho {
+  border: white solid;
+  border-radius: 20px;
+  background-color: #ffd700;
+  color: #353839;
+  margin-top: 90px;
+   animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 5px #ffffff, 0 0 15px #ffffff;
+  }
+
+  50% {
+    box-shadow: 0 0 20px #ffffff, 0 0 40px #ffffff;
+  }
+
+  100% {
+    box-shadow: 0 0 5px #ffffff, 0 0 15px #ffffff;
+  }
+}
+
+
+  .cabeçalho2 {
+    border: black solid;
+    background-color: #353839;
+    color: #ffd700;
+    border-radius: 20px;
+    margin: 30px;
+  }
+  iframe {
+    margin: 50px;
+    border-radius: 20px;
+    border: white 3px solid;
+    margin-bottom: 2px;
+  }
+  .Videozim {
+    color: #353839;
+    border-radius: 20px;
+    margin: 10px 20px 10px 20px;
+
+  }
