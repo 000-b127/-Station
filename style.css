@@ -85,7 +85,7 @@ a:hover {
   color: #353839;
   margin-top: 90px;
    animation: pulse 2s infinite;
-   padding: 10px 20px 10px 10px;
+   padding: 10px 15px 10px 10px;
 }
 
 @keyframes pulse {
@@ -121,8 +121,7 @@ a:hover {
   border: white solid;
   }
   .Videozim {
-    color: #353839;
+    color: #000000;
     border-radius: 20px;
     margin: 10px 20px 10px 20px;
-
   }
