@@ -32,7 +32,7 @@ body {
   color: #ffd700;
   text-align: center;
   margin: 50px;
-  padding: 50px 50px 300px 50px;
+  padding: 50px 20px 300px 20px;
 
 }
 
@@ -85,6 +85,7 @@ a:hover {
   color: #353839;
   margin-top: 90px;
    animation: pulse 2s infinite;
+   padding: 10px 20px 10px 10px;
 }
 
 @keyframes pulse {
