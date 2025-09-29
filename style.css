@@ -37,7 +37,7 @@ body {
 }
 
 /* Links */
-a {
+.R {
   background-color: #ffd700;
   font-size: 18px;
   border-radius: 10px;
@@ -58,7 +58,7 @@ a {
 }
 
 /* Efeito hover no desktop */
-a:hover {
+.R:hover {
   background-color: #353839;
   color: #ffd700;
   border: #ffd700 2px solid;
@@ -69,7 +69,7 @@ a:hover {
 
 /* Media queries para celular */
 @media (max-width: 768px) {
-  a {
+  .R {
     font-size: 16px;
     /* Letras um pouco menores */
     padding: 10px;
@@ -163,4 +163,61 @@ iframe {
   100% {
     text-shadow: 2px 2px 8px #ffd700, 0 0 20px #353839;
   }
+}
+
+.videos {
+  display: flex;
+  overflow-x: auto;
+  /* rolagem horizontal */
+  gap: 10px;
+  padding: 10px;
+  background-color: #353839;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.videos a {
+  flex: 0 0 auto;
+  /* impede o link de "quebrar linha" */
+  text-decoration: none;
+}
+
+.videos img {
+  width: 300px;
+  height: 170px;
+  object-fit: cover;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  transition: 0.3s;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.videos img {
+  border: 3px solid #ffd700;
+}
+
+.videos img:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+.texto {
+  bottom: 8px;
+  left: 8px;
+  right: 8px;
+  color: #ffd700;
+  padding: 5px;
+  border-radius: 4px;
+  text-align: center;
+  border: black solid;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 12px 20px;
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: o 4px 8px rgba(0, 0, 0, 0.5);
+  font-size: 32px;
+  background-color: #353839;
 }
