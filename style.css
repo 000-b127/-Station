@@ -174,6 +174,7 @@ iframe {
   background-color: #353839;
   border-radius: 10px;
   padding: 20px;
+  border: rgb(255, 255, 255) solid 3px;
 }
 
 .videos a {
@@ -221,3 +222,45 @@ iframe {
   font-size: 32px;
   background-color: #353839;
 }
+
+
+  .barra-canais {
+    display: flex;
+    gap: 15px;
+    background: #353839;
+    padding: 10px;
+    overflow-x: auto;
+    border-radius: 10px;
+    border: #ffffff 3px solid;
+  }
+
+  .canal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition: transform 0.2s;
+  }
+
+  .canal img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    border: rgb(0, 0, 0) solid;
+  }
+
+  .canal:hover {
+    transform: scale(1.1);
+  }
+
+  /* Scroll horizontal bonito */
+  .barra-canais::-webkit-scrollbar {
+    height: 6px;
+  }
+  .barra-canais::-webkit-scrollbar-thumb {
+    background: #353839;
+    border-radius: 3px;
+  }
