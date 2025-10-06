@@ -54,6 +54,7 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   transition: all 0.3s ease;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  border: white solid;
   /* sombra suave */
 }
 
@@ -264,3 +265,19 @@ iframe {
     background: #353839;
     border-radius: 3px;
   }
+.descrição{
+  border: white solid;
+  background-color: #353839;
+  color: #ffd700;
+  border-radius: 10px;
+  margin: 1px  auto 25px auto;
+  padding: 12px 12px;
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: o 4px 8px rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+}
+.a{
+  text-decoration-line: underline;
+}
