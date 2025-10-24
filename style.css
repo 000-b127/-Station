@@ -250,7 +250,7 @@ iframe {
     height: 50px;
     border-radius: 50%;
     margin-bottom: 5px;
-    border: rgb(0, 0, 0) solid;
+    border: rgb(255, 254, 254) solid;
   }
 
   .canal:hover {
