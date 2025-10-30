@@ -281,3 +281,64 @@ iframe {
 .a{
   text-decoration-line: underline;
 }
+
+/* zona caotica */
+.chaos {
+  border: white solid;
+  border-radius: 5px;
+  background-color: #4b0082;
+  color: #353839;
+  animation: pulse 2s infinite;
+  padding: 10px 15px 10px 10px;
+  margin: 90px 0 0 0;
+  box-sizing: border-box;
+  width: 100vw;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 5px #ffffff, 0 0 15px #ffffff;
+  }
+
+  50% {
+    box-shadow: 0 0 20px #ffffff, 0 0 40px #ffffff;
+  }
+
+  100% {
+    box-shadow: 0 0 5px #ffffff, 0 0 15px #ffffff;
+  }
+}
+
+
+.caos {
+  border: white solid;
+  background-color: #353839;
+  color: white;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 12px 20px;
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: o 4px 8px rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  text-decoration-line: underline;
+}
+
+.descrição2{
+  border: white solid;
+  background-color: #353839;
+  color: white;
+  border-radius: 10px;
+  margin: 10px  auto 25px auto;
+  padding: 12px 12px;
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: o 4px 8px rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+}
+
+.c {
+  text-decoration-line: underline;
+}
