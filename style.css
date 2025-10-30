@@ -259,11 +259,12 @@ iframe {
 
   /* Scroll horizontal bonito */
   .barra-canais::-webkit-scrollbar {
-    height: 6px;
+    height: 3px;
   }
   .barra-canais::-webkit-scrollbar-thumb {
-    background: white;
+    background: gray;
     border-radius: 3px;
+    opacity: 2;
   }
 .descrição{
   border: white solid;
