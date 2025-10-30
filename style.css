@@ -262,7 +262,7 @@ iframe {
     height: 6px;
   }
   .barra-canais::-webkit-scrollbar-thumb {
-    background: #353839;
+    background: white;
     border-radius: 3px;
   }
 .descrição{
