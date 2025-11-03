@@ -11,17 +11,30 @@
   animation: pulse 2s infinite;
 }
 
+.UzimurderDrone {
+  max-width: 100%;
+  /* Faz a imagem nunca ultrapassar a largura da tela */
+  height: auto;
+  /* Mantém proporção */
+  border-radius: 20px;
+  /* Diminui no mobile pra não ficar exagerado */
+  border: #4b0082 3px solid;
+  margin-bottom: 5px;
+  animation: pulse 2s infinite;
+  margin-top: 50px;
+}
+
 @keyframes pulse {
   0% {
-    box-shadow: 0 0 5px #ffd700, 0 0 15px #ffd700;
+    box-shadow: 0 0 0px white, 0 0 5px white;
   }
 
   50% {
-    box-shadow: 0 0 20px #ffd700, 0 0 40px #ffd700;
+    box-shadow: 0 0 20px white, 0 0 40px white;
   }
 
   100% {
-    box-shadow: 0 0 5px #ffd700, 0 0 15px #ffd700;
+    box-shadow: 0 0 20px whitw, 0 0 45px white;
   }
 }
 
@@ -29,7 +42,7 @@
 body {
   background: linear-gradient(135deg, #353839, #0f0f0f, #000000);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: #ffd700;
+  color: white;
   text-align: center;
   margin: 0;
   padding-top: 50px;
@@ -91,23 +104,8 @@ body {
   width: 100vw;
 }
 
-@keyframes pulse {
-  0% {
-    box-shadow: 0 0 5px #ffffff, 0 0 15px #ffffff;
-  }
-
-  50% {
-    box-shadow: 0 0 20px #ffffff, 0 0 40px #ffffff;
-  }
-
-  100% {
-    box-shadow: 0 0 5px #ffffff, 0 0 15px #ffffff;
-  }
-}
-
-
 .cabeçalho2 {
-  border: black solid;
+  border: white solid ;
   background-color: #353839;
   color: #ffd700;
   border-radius: 10px;
@@ -139,31 +137,16 @@ iframe {
 
 /* ...existing code... */
 .O {
-  text-decoration-line: underline;
   font-size: 48px;
   font-weight: bold;
   letter-spacing: 4px;
-  background: linear-gradient(90deg, #ffd700, #fff700, #353839);
+  background: linear-gradient(90deg, white, white, #353839);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
-  text-shadow: 2px 2px 8px #ffd700, 0 0 20px #353839;
+  text-shadow: 2px 2px 8px white, 0 0 20px #353839;
   animation: titlePulse 2s infinite;
-}
-
-@keyframes titlePulse {
-  0% {
-    text-shadow: 2px 2px 8px #ffd700, 0 0 20px #353839;
-  }
-
-  50% {
-    text-shadow: 4px 4px 16px #ffd700, 0 0 40px #353839;
-  }
-
-  100% {
-    text-shadow: 2px 2px 8px #ffd700, 0 0 20px #353839;
-  }
 }
 
 .videos {
@@ -210,9 +193,8 @@ iframe {
   right: 8px;
   color: #ffd700;
   padding: 5px;
-  border-radius: 4px;
   text-align: center;
-  border: black solid;
+  border: white solid;
   border-radius: 10px;
   margin: 20px auto;
   padding: 12px 20px;
@@ -296,21 +278,6 @@ iframe {
   width: 100vw;
 }
 
-@keyframes pulse {
-  0% {
-    box-shadow: 0 0 5px #ffffff, 0 0 15px #ffffff;
-  }
-
-  50% {
-    box-shadow: 0 0 20px #ffffff, 0 0 40px #ffffff;
-  }
-
-  100% {
-    box-shadow: 0 0 5px #ffffff, 0 0 15px #ffffff;
-  }
-}
-
-
 .caos {
   border: white solid;
   background-color: #353839;
@@ -353,5 +320,5 @@ iframe {
   text-align: center;
   box-shadow: o 4px 8px rgba(0, 0, 0, 0.5);
   font-size: 30px;
+  text-decoration-line: underline;
 }
-
