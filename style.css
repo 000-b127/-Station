@@ -236,6 +236,7 @@ iframe {
   color: white;
   font-size: 14px;
   transition: transform 0.2s;
+  opacity: 0.5
 }
 
 .canal img {
@@ -248,6 +249,7 @@ iframe {
 
 .canal:hover {
   transform: scale(1.1);
+  opacity: 1.0
 }
 
 
