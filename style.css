@@ -377,4 +377,59 @@ iframe {
 .videos2 img:hover {
   transform: scale(1.05);
   opacity: 1;
-}
+}
+
+#game {
+  width: 160px;
+  margin: 20px auto;
+  background-color: #353839;
+  padding: 10px 5px 10px 10px;
+  border: solid white 4px;
+  border-radius: 10px;
+}
+.row {
+  display: flex;
+}
+.cell {
+  width: 50px;
+  height: 50px;
+  background: #f2f2f2;
+  border: 1px solid #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  cursor: pointer;
+  color: black;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+#status {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3em;
+  font-weight: 600;
+  color: white;
+  margin-top: 15px;
+  text-align: center;
+}
+
+#restartButton{
+  border: white solid;
+  background-color: #353839;
+  color: white;
+  border-radius: 10px;
+  margin: 10px auto auto auto;
+  padding: 12px 12px;
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: o 4px 8px rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  transition: 0.3s;
+}
+#restartButton:active {
+  transform: scale(0.9); /* reduz o tamanho enquanto clicado */
+  opacity: 0.5;
+}
+
+
