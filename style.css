@@ -23,6 +23,18 @@
   animation: pulse 2s infinite;
   margin-top: 50px;
 }
+.ThadMurderDrones {
+  max-width: 100%;
+  /* Faz a imagem nunca ultrapassar a largura da tela */
+  height: auto;
+  /* Mantém proporção */
+  border-radius: 20px;
+  /* Diminui no mobile pra não ficar exagerado */
+  border: green 3px solid;
+  margin-bottom: 5px;
+  animation: pulse 2s infinite;
+  margin-top: 50px;
+}
 
 @keyframes pulse {
   0% {
@@ -104,7 +116,7 @@ body {
 }
 
 .cabeçalho2 {
-  border: white solid ;
+  border: white solid;
   background-color: #353839;
   color: #ffd700;
   border-radius: 10px;
@@ -206,53 +218,45 @@ iframe {
 }
 
 
-  .barra-canais {
-    display: flex;
-    gap: 15px;
-    background: #353839;
-    padding: 10px;
-    overflow-x: auto;
-    border-radius: 10px;
-    border: #ffffff 3px solid;
-  }
+.barra-canais {
+  display: flex;
+  gap: 15px;
+  background: #353839;
+  padding: 10px;
+  overflow-x: auto;
+  border-radius: 10px;
+  border: #ffffff 3px solid;
+}
 
-  .canal {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-    font-size: 14px;
-    transition: transform 0.2s;
-  }
+.canal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  transition: transform 0.2s;
+}
 
-  .canal img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-bottom: 5px;
-    border: rgb(255, 254, 254) solid;
-  }
+.canal img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+  border: rgb(255, 254, 254) solid;
+}
 
-  .canal:hover {
-    transform: scale(1.1);
-  }
+.canal:hover {
+  transform: scale(1.1);
+}
 
-  /* Scroll horizontal bonito */
-  .barra-canais::-webkit-scrollbar {
-    height: 3px;
-  }
-  .barra-canais::-webkit-scrollbar-thumb {
-    background: gray;
-    border-radius: 3px;
-    opacity: 2;
-  }
-.descrição{
+
+.descrição {
   border: white solid;
   background-color: #353839;
   color: #ffd700;
   border-radius: 10px;
-  margin: 1px  auto 25px auto;
+  margin: 1px auto 25px auto;
   padding: 12px 12px;
   display: inline-block;
   font-weight: bold;
@@ -260,7 +264,8 @@ iframe {
   box-shadow: o 4px 8px rgba(0, 0, 0, 0.5);
   font-size: 20px;
 }
-.a{
+
+.a {
   text-decoration-line: underline;
 }
 
@@ -291,12 +296,12 @@ iframe {
   text-decoration-line: underline;
 }
 
-.descrição2{
+.descrição2 {
   border: white solid;
   background-color: #353839;
   color: white;
   border-radius: 10px;
-  margin: 10px  auto 25px auto;
+  margin: 10px auto 50px auto;
   padding: 12px 12px;
   display: inline-block;
   font-weight: bold;
@@ -308,10 +313,11 @@ iframe {
 .c {
   text-decoration-line: underline;
 }
-.caosv{
+
+.caosv {
   color: white;
   border-radius: 10px;
-  margin: 10px  auto 25px auto;
+  margin: 10px auto 25px auto;
   padding: 12px 12px;
   display: inline-block;
   font-weight: bold;
@@ -320,3 +326,53 @@ iframe {
   font-size: 30px;
   text-decoration-line: underline;
 }
+
+/* jogos */
+.jogos {
+  border: white solid;
+  border-radius: 5px;
+  background-color: green;
+  color: #353839;
+  animation: pulse 2s infinite;
+  padding: 10px 15px 10px 10px;
+  margin: 90px 0 0 0;
+  box-sizing: border-box;
+}
+
+.videos2 {
+  display: flex;
+  overflow-x: auto;
+  /* rolagem horizontal */
+  gap: 10px;
+  padding: 10px;
+  background-color: #353839;
+  border-radius: 10px;
+  padding: 20px;
+  border: rgb(255, 255, 255) solid 3px;
+}
+
+.videos2 a {
+  flex: 0 0 auto;
+  /* impede o link de "quebrar linha" */
+  text-decoration: none;
+}
+
+.videos2 img {
+  width: 300px;
+  height: 170px;
+  object-fit: cover;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  transition: 0.3s;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.videos2 img {
+  border: 3px solid green;
+}
+
+.videos2 img:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
