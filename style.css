@@ -401,6 +401,7 @@ iframe {
   font-size: 30px;
   cursor: pointer;
   color: black;
+  border-radius: 10px;
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
@@ -426,6 +427,7 @@ iframe {
   box-shadow: o 4px 8px rgba(0, 0, 0, 0.5);
   font-size: 20px;
   transition: 0.3s;
+  text-decoration-line: underline;
 }
 #restartButton:active {
   transform: scale(0.9); /* reduz o tamanho enquanto clicado */
