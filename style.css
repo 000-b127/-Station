@@ -35,6 +35,18 @@
   animation: pulse 2s infinite;
   margin-top: 50px;
 }
+.Pessy{
+  max-width: 100%;
+  /* Faz a imagem nunca ultrapassar a largura da tela */
+  height: auto;
+  /* Mantém proporção */
+  border-radius: 20px;
+  /* Diminui no mobile pra não ficar exagerado */
+  border: orangered 3px solid;
+  margin-bottom: 5px;
+  animation: pulse 2s infinite;
+  margin-top: 50px;
+}
 
 @keyframes pulse {
   0% {
@@ -494,4 +506,15 @@ background-color: green;
   border-radius: 10px;
   margin-bottom: 20px;
   margin-top: 20px;
+}
+
+.teorias{
+  border: white solid;
+  border-radius: 5px;
+  background-color: orangered;
+  color: #353839;
+  animation: pulse 2s infinite;
+  padding: 10px 15px 10px 10px;
+  margin: 90px 0 0 0;
+  box-sizing: border-box;
 }
