@@ -447,15 +447,15 @@ iframe {
   opacity: 0.5;
 }
 
-.R2{
-background-color: green;
-  font-size: 20px;
+.R2 {
+  background-color: green;
+  font-size: 26px;
   border-radius: 10px;
   padding: 12px;
   display: block;
   text-align: center;
   margin: 12px auto;
-  width: 200px;
+  width: 90%;
   /* Ocupa quase toda a largura no celular */
   max-width: 250px;
   /* Mas no desktop não fica gigante */
@@ -463,32 +463,33 @@ background-color: green;
   text-decoration: none;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   transition: all 0.3s ease;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
   border: white solid;
   /* sombra suave */
   text-decoration-line: underline;
 }
 
-
-.R2:active {
-  background-color: #353839;
+/* Efeito hover no desktop */
+.R2:hover {
+  background-color: #262727;
   color: white;
-  border: white 2px solid;
-  transform: scale(0.9);
+  border: green 2px solid;
+  transform: scale(1.09);
+  /* cresce levemente no hover */
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
-  animation-duration: 5s;
 }
 
 /* Media queries para celular */
 @media (max-width: 768px) {
   .R2 {
-    font-size: 25px;
+    font-size: 26px;
     /* Letras um pouco menores */
     padding: 10px;
     /* Botões mais confortáveis */
     border-radius: 8px;
   }
-}  
+}
+  
 
 
 .jogo{
@@ -517,4 +518,5 @@ background-color: green;
   padding: 10px 15px 10px 10px;
   margin: 90px 0 0 0;
   box-sizing: border-box;
+
 }
