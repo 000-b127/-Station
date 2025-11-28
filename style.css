@@ -520,3 +520,12 @@ iframe {
   box-sizing: border-box;
 
 }
+
+.pedra{
+  background-color: #353839;
+  padding-bottom: 20px;
+  border: white solid;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
