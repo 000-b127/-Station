@@ -142,12 +142,12 @@ body {
 }
 
 iframe {
-  width: auto;
+  width: 100%;
   max-width: 560px;
   aspect-ratio: 16 / 9;
   height: auto;
-  display: inline-block;
-  margin: 0 50px 10px auto;
+  display: block;
+  margin: 0 auto 10px auto;
   border-radius: 20px;
   border: white solid;
 }
