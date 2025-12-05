@@ -142,16 +142,14 @@ body {
 }
 
 iframe {
-  width: 100%;
+  width: auto;
   max-width: 560px;
   aspect-ratio: 16 / 9;
   height: auto;
-  display: flex;
-  margin: 0 auto 10px auto;
+  display: inline-block;
+  margin: 0 50px 10px auto;
   border-radius: 20px;
   border: white solid;
-  overflow-x: auto;
-  gap: 10px;
 }
 
 .Videozim {
